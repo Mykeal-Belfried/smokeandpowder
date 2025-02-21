@@ -1,0 +1,12 @@
+{
+	ingredient: { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["iron","meteoriciron","steel"] },
+	pattern: [[
+		"##########",
+		"##########"
+	],[
+		"##########",
+		"##########"
+	]],
+	name: "Barrel rod",
+	output: { type: "item", code: "riflebarrelrod-{metal}", quantity: 1 }
+}

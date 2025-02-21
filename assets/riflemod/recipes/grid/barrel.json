@@ -1,0 +1,17 @@
+[
+
+{
+	ingredientPattern: "H,C,B",
+	ingredients: {
+		"H": { type: "item", code: "game:hammer-*", isTool: true },
+		"C": { type: "item", code: "game:chisel-*", isTool: true },
+		"B": { type: "item", code: "riflebarrelrod-*", name: "metal", allowedVariants: ["iron", "meteoriciron", "steel"], quantity: 1 },
+		"A": { type: "item", code: "riflebarrelrod-*", name: "metal", allowedVariants: ["iron", "meteoriciron", "steel"], quantity: 1 }	
+	},
+	name: "rifle breech",
+	width: 1,
+	height: 3,
+	output: { type: "item", code: "riflebarrel-{metal}", quantity: 1  }
+}
+
+]

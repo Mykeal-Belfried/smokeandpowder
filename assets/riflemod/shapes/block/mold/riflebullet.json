@@ -1,0 +1,227 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"other": "game:block/clay/ceramic",
+		"floor": "game:block/clay/ceramic-dark"
+	},
+	"elements": [
+		{
+			"name": "MoldBase",
+			"from": [ 2.5, 0.0, 2.5 ], 
+			"to": [ 13.5, 1.0, 13.5 ], 
+			"rotationOrigin": [ 2.5, 0.0, 0.5 ],
+			"faces": {
+				"north": { "texture": "#other", "uv": [ 0.0, 12.0, 11.0, 13.0 ], "enabled": false },
+				"east": { "texture": "#other", "uv": [ 2.0, 12.0, 13.0, 13.0 ], "enabled": false },
+				"south": { "texture": "#other", "uv": [ 2.0, 15.0, 13.0, 16.0 ], "enabled": false },
+				"west": { "texture": "#other", "uv": [ 2.0, 15.0, 13.0, 16.0 ], "enabled": false },
+				"up": { "texture": "#floor", "uv": [ 0.0, 0.0, 11.0, 11.0 ] },
+				"down": { "texture": "#other", "uv": [ 5.0, 5.0, 16.0, 16.0 ] }
+			},
+			"children": [
+				{
+					"name": "MoldWallL",
+					"from": [ 0.0, 0.0, -1.0 ], 
+					"to": [ 11.0, 2.0, 0.0 ], 
+					"rotationOrigin": [ 0.0, 0.0, -1.0 ],
+					"faces": {
+						"north": { "texture": "#other", "uv": [ 0.0, 4.0, 11.0, 6.0 ] },
+						"east": { "texture": "#other", "uv": [ 12.0, 2.0, 13.0, 4.0 ], "enabled": false },
+						"south": { "texture": "#other", "uv": [ 5.0, 4.0, 16.0, 6.0 ] },
+						"west": { "texture": "#other", "uv": [ 14.0, 2.0, 15.0, 4.0 ], "enabled": false },
+						"up": { "texture": "#other", "uv": [ 0.0, 1.0, 11.0, 2.0 ] },
+						"down": { "texture": "#other", "uv": [ 5.0, 1.0, 16.0, 2.0 ] }
+					}
+				},
+				{
+					"name": "MoldWallR",
+					"from": [ 0.0, 0.0, 11.0 ], 
+					"to": [ 11.0, 2.0, 12.0 ], 
+					"rotationOrigin": [ 0.0, 0.0, 12.0 ],
+					"faces": {
+						"north": { "texture": "#other", "uv": [ 0.0, 2.0, 11.0, 4.0 ] },
+						"east": { "texture": "#other", "uv": [ 12.0, 2.0, 13.0, 4.0 ], "enabled": false },
+						"south": { "texture": "#other", "uv": [ 5.0, 2.0, 16.0, 4.0 ] },
+						"west": { "texture": "#other", "uv": [ 15.0, 2.0, 16.0, 4.0 ], "enabled": false },
+						"up": { "texture": "#other", "uv": [ 0.0, 0.0, 11.0, 1.0 ] },
+						"down": { "texture": "#other", "uv": [ 6.0, 0.0, 17.0, 1.0 ] }
+					}
+				},
+				{
+					"name": "MoldWallBottom",
+					"from": [ -1.0, 0.0, -1.0 ], 
+					"to": [ 0.0, 2.0, 12.0 ], 
+					"rotationOrigin": [ -1.0, 0.0, -1.0 ],
+					"faces": {
+						"north": { "texture": "#other", "uv": [ 0.0, 14.0, 1.0, 16.0 ] },
+						"east": { "texture": "#other", "uv": [ 3.0, 14.0, 16.0, 16.0 ] },
+						"south": { "texture": "#other", "uv": [ 4.0, 12.0, 6.0, 14.0 ], "autoUv": false },
+						"west": { "texture": "#other", "uv": [ 2.0, 14.0, 16.0, 16.0 ], "autoUv": false },
+						"up": { "texture": "#other", "uv": [ 0.0, 0.0, 1.0, 13.0 ] },
+						"down": { "texture": "#other", "uv": [ 4.0, 0.0, 5.0, 13.0 ] }
+					}
+				},
+				{
+					"name": "MoldWallTop",
+					"from": [ 11.0, 0.0, -1.0 ], 
+					"to": [ 12.0, 2.0, 12.0 ], 
+					"rotationOrigin": [ 11.0, 0.0, -1.0 ],
+					"faces": {
+						"north": { "texture": "#other", "uv": [ 4.0, 9.0, 5.0, 11.0 ] },
+						"east": { "texture": "#other", "uv": [ 2.0, 14.0, 15.0, 16.0 ] },
+						"south": { "texture": "#other", "uv": [ 4.0, 12.0, 6.0, 14.0 ], "autoUv": false },
+						"west": { "texture": "#other", "uv": [ 2.0, 14.0, 16.0, 16.0 ], "autoUv": false },
+						"up": { "texture": "#other", "uv": [ 0.0, 0.0, 1.0, 13.0 ] },
+						"down": { "texture": "#other", "uv": [ 4.0, 0.0, 5.0, 13.0 ] }
+					}
+				},
+				{
+					"name": "MoldDividerH1",
+					"from": [ 1.0, 1.0, 0.0 ], 
+					"to": [ 2.0, 2.0, 11.0 ], 
+					"rotationOrigin": [ 1.0, 1.0, 0.0 ],
+					"faces": {
+						"north": { "texture": "#other", "uv": [ 0.0, 5.0, 1.0, 6.0 ] },
+						"east": { "texture": "#other", "uv": [ 1.0, 5.0, 12.0, 6.0 ] },
+						"south": { "texture": "#other", "uv": [ 6.0, 5.0, 7.0, 6.0 ] },
+						"west": { "texture": "#other", "uv": [ 5.0, 5.0, 16.0, 6.0 ] },
+						"up": { "texture": "#other", "uv": [ 0.0, 0.0, 1.0, 11.0 ] },
+						"down": { "texture": "#other", "uv": [ 1.0, 0.0, 2.0, 11.0 ] }
+					}
+				},
+				{
+					"name": "MoldDividerH2",
+					"from": [ 3.0, 1.0, 0.0 ], 
+					"to": [ 4.0, 2.0, 11.0 ], 
+					"rotationOrigin": [ 3.0, 1.0, 0.0 ],
+					"faces": {
+						"north": { "texture": "#other", "uv": [ 0.0, 5.0, 1.0, 6.0 ] },
+						"east": { "texture": "#other", "uv": [ 1.0, 5.0, 12.0, 6.0 ] },
+						"south": { "texture": "#other", "uv": [ 6.0, 5.0, 7.0, 6.0 ] },
+						"west": { "texture": "#other", "uv": [ 5.0, 5.0, 16.0, 6.0 ] },
+						"up": { "texture": "#other", "uv": [ 0.0, 0.0, 1.0, 11.0 ] },
+						"down": { "texture": "#other", "uv": [ 1.0, 0.0, 2.0, 11.0 ] }
+					}
+				},
+				{
+					"name": "MoldDividerH3",
+					"from": [ 5.0, 1.0, 0.0 ], 
+					"to": [ 6.0, 2.0, 11.0 ], 
+					"rotationOrigin": [ 5.0, 1.0, 0.0 ],
+					"faces": {
+						"north": { "texture": "#other", "uv": [ 0.0, 5.0, 1.0, 6.0 ] },
+						"east": { "texture": "#other", "uv": [ 1.0, 5.0, 12.0, 6.0 ] },
+						"south": { "texture": "#other", "uv": [ 6.0, 5.0, 7.0, 6.0 ] },
+						"west": { "texture": "#other", "uv": [ 5.0, 5.0, 16.0, 6.0 ] },
+						"up": { "texture": "#other", "uv": [ 0.0, 0.0, 1.0, 11.0 ] },
+						"down": { "texture": "#other", "uv": [ 1.0, 0.0, 2.0, 11.0 ] }
+					}
+				},
+				{
+					"name": "MoldDividerH4",
+					"from": [ 7.0, 1.0, 0.0 ], 
+					"to": [ 8.0, 2.0, 11.0 ], 
+					"rotationOrigin": [ 7.0, 1.0, 0.0 ],
+					"faces": {
+						"north": { "texture": "#other", "uv": [ 0.0, 5.0, 1.0, 6.0 ] },
+						"east": { "texture": "#other", "uv": [ 1.0, 5.0, 12.0, 6.0 ] },
+						"south": { "texture": "#other", "uv": [ 6.0, 5.0, 7.0, 6.0 ] },
+						"west": { "texture": "#other", "uv": [ 5.0, 5.0, 16.0, 6.0 ] },
+						"up": { "texture": "#other", "uv": [ 0.0, 0.0, 1.0, 11.0 ] },
+						"down": { "texture": "#other", "uv": [ 1.0, 0.0, 2.0, 11.0 ] }
+					}
+				},
+				{
+					"name": "MoldDividerH5",
+					"from": [ 9.0, 1.0, 0.0 ], 
+					"to": [ 10.0, 2.0, 11.0 ], 
+					"rotationOrigin": [ 9.0, 1.0, 0.0 ],
+					"faces": {
+						"north": { "texture": "#other", "uv": [ 0.0, 5.0, 1.0, 6.0 ] },
+						"east": { "texture": "#other", "uv": [ 1.0, 5.0, 12.0, 6.0 ] },
+						"south": { "texture": "#other", "uv": [ 6.0, 5.0, 7.0, 6.0 ] },
+						"west": { "texture": "#other", "uv": [ 5.0, 5.0, 16.0, 6.0 ] },
+						"up": { "texture": "#other", "uv": [ 0.0, 0.0, 1.0, 11.0 ] },
+						"down": { "texture": "#other", "uv": [ 1.0, 0.0, 2.0, 11.0 ] }
+					}
+				},
+				{
+					"name": "MoldDividerV1",
+					"from": [ 0.0, 0.98, 1.0 ], 
+					"to": [ 11.0, 1.98, 2.0 ], 
+					"rotationOrigin": [ 0.0, 1.0, 1.0 ],
+					"faces": {
+						"north": { "texture": "#other", "uv": [ 0.0, 4.0, 11.0, 5.0 ] },
+						"east": { "texture": "#other", "uv": [ 12.0, 2.0, 13.0, 3.0 ], "enabled": false },
+						"south": { "texture": "#other", "uv": [ 5.0, 4.0, 16.0, 5.0 ] },
+						"west": { "texture": "#other", "uv": [ 14.0, 2.0, 15.0, 3.0 ], "enabled": false },
+						"up": { "texture": "#other", "uv": [ 0.0, 1.0, 11.0, 2.0 ] },
+						"down": { "texture": "#other", "uv": [ 5.0, 1.0, 16.0, 2.0 ], "enabled": false, "windMode": [-1,-1,-1,-1] }
+					}
+				},
+				{
+					"name": "MoldDividerV2",
+					"from": [ 0.0, 0.98, 3.0 ], 
+					"to": [ 11.0, 1.98, 4.0 ], 
+					"rotationOrigin": [ 0.0, 1.0, 3.0 ],
+					"faces": {
+						"north": { "texture": "#other", "uv": [ 0.0, 4.0, 11.0, 5.0 ] },
+						"east": { "texture": "#other", "uv": [ 12.0, 2.0, 13.0, 3.0 ], "enabled": false },
+						"south": { "texture": "#other", "uv": [ 5.0, 4.0, 16.0, 5.0 ] },
+						"west": { "texture": "#other", "uv": [ 14.0, 2.0, 15.0, 3.0 ], "enabled": false },
+						"up": { "texture": "#other", "uv": [ 0.0, 1.0, 11.0, 2.0 ] },
+						"down": { "texture": "#other", "uv": [ 5.0, 1.0, 16.0, 2.0 ], "enabled": false }
+					}
+				},
+				{
+					"name": "MoldDividerV3",
+					"from": [ 0.0, 0.98, 5.0 ], 
+					"to": [ 11.0, 1.98, 6.0 ], 
+					"rotationOrigin": [ 0.0, 1.0, 5.0 ],
+					"faces": {
+						"north": { "texture": "#other", "uv": [ 0.0, 4.0, 11.0, 5.0 ] },
+						"east": { "texture": "#other", "uv": [ 12.0, 2.0, 13.0, 3.0 ], "enabled": false },
+						"south": { "texture": "#other", "uv": [ 5.0, 4.0, 16.0, 5.0 ] },
+						"west": { "texture": "#other", "uv": [ 14.0, 2.0, 15.0, 3.0 ], "enabled": false },
+						"up": { "texture": "#other", "uv": [ 0.0, 1.0, 11.0, 2.0 ] },
+						"down": { "texture": "#other", "uv": [ 5.0, 1.0, 16.0, 2.0 ], "enabled": false }
+					}
+				},
+				{
+					"name": "MoldDividerV4",
+					"from": [ 0.0, 0.98, 7.0 ], 
+					"to": [ 11.0, 1.98, 8.0 ], 
+					"rotationOrigin": [ 0.0, 1.0, 7.0 ],
+					"faces": {
+						"north": { "texture": "#other", "uv": [ 0.0, 4.0, 11.0, 5.0 ] },
+						"east": { "texture": "#other", "uv": [ 12.0, 2.0, 13.0, 3.0 ], "enabled": false },
+						"south": { "texture": "#other", "uv": [ 5.0, 4.0, 16.0, 5.0 ] },
+						"west": { "texture": "#other", "uv": [ 14.0, 2.0, 15.0, 3.0 ], "enabled": false },
+						"up": { "texture": "#other", "uv": [ 0.0, 1.0, 11.0, 2.0 ] },
+						"down": { "texture": "#other", "uv": [ 5.0, 1.0, 16.0, 2.0 ], "enabled": false }
+					}
+				},
+				{
+					"name": "MoldDividerV5",
+					"from": [ 0.0, 0.98, 9.0 ], 
+					"to": [ 11.0, 1.98, 10.0 ], 
+					"rotationOrigin": [ 0.0, 1.0, 9.0 ],
+					"faces": {
+						"north": { "texture": "#other", "uv": [ 0.0, 4.0, 11.0, 5.0 ] },
+						"east": { "texture": "#other", "uv": [ 12.0, 2.0, 13.0, 3.0 ], "enabled": false },
+						"south": { "texture": "#other", "uv": [ 5.0, 4.0, 16.0, 5.0 ] },
+						"west": { "texture": "#other", "uv": [ 14.0, 2.0, 15.0, 3.0 ], "enabled": false },
+						"up": { "texture": "#other", "uv": [ 0.0, 1.0, 11.0, 2.0 ] },
+						"down": { "texture": "#other", "uv": [ 5.0, 1.0, 16.0, 2.0 ], "enabled": false }
+					}
+				}
+			]
+		}
+	]}

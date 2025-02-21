@@ -1,0 +1,127 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+	},
+	"elements": [
+		{
+			"name": "Bullet1",
+			"from": [ 7.0, 0.0, 7.0 ], 
+			"to": [ 9.0, 0.4, 9.0 ], 
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+				"north": { "texture": "#metal", "uv": [ 0.0, 0.0, 2.0, 0.5 ] },
+				"east": { "texture": "#metal", "uv": [ 3.0, 12.0, 5.0, 12.5 ] },
+				"south": { "texture": "#metal", "uv": [ 8.5, 7.0, 10.5, 7.5 ] },
+				"west": { "texture": "#metal", "uv": [ 8.5, 7.5, 10.5, 8.0 ] },
+				"up": { "texture": "#metal", "uv": [ 11.0, 8.0, 13.0, 10.0 ] },
+				"down": { "texture": "#metal", "uv": [ 3.0, 7.5, 5.0, 9.5 ] }
+			},
+			"children": [
+				{
+					"name": "Bullet2",
+					"from": [ 0.0, 0.8, 0.0 ], 
+					"to": [ 2.0, 1.2, 2.0 ], 
+					"rotationOrigin": [ 0.0, 0.8, 0.0 ],
+					"faces": {
+						"north": { "texture": "#metal", "uv": [ 5.5, 10.0, 7.5, 10.5 ] },
+						"east": { "texture": "#metal", "uv": [ 9.5, 4.0, 11.5, 4.5 ] },
+						"south": { "texture": "#metal", "uv": [ 5.0, 9.5, 7.0, 10.0 ] },
+						"west": { "texture": "#metal", "uv": [ 10.0, 4.5, 12.0, 5.0 ] },
+						"up": { "texture": "#metal", "uv": [ 8.0, 4.0, 10.0, 6.0 ] },
+						"down": { "texture": "#metal", "uv": [ 8.5, 6.5, 10.5, 8.5 ] }
+					}
+				},
+				{
+					"name": "Bullet4",
+					"from": [ 0.2, 2.0, 0.2 ], 
+					"to": [ 1.8, 2.6, 1.8 ], 
+					"rotationOrigin": [ 0.2, 2.0, 0.2 ],
+					"faces": {
+						"north": { "texture": "#metal", "uv": [ 9.0, 6.0, 10.5, 6.5 ] },
+						"east": { "texture": "#metal", "uv": [ 6.0, 10.5, 7.5, 11.0 ] },
+						"south": { "texture": "#metal", "uv": [ 6.0, 8.5, 7.5, 9.0 ] },
+						"west": { "texture": "#metal", "uv": [ 7.5, 5.0, 9.0, 5.5 ] },
+						"up": { "texture": "#metal", "uv": [ 7.5, 4.0, 9.0, 5.5 ] },
+						"down": { "texture": "#metal", "uv": [ 0.0, 0.0, 1.5, 1.5 ], "enabled": false }
+					}
+				},
+				{
+					"name": "Bullet5",
+					"from": [ 0.4, 2.6, 0.4 ], 
+					"to": [ 1.6, 3.0, 1.6 ], 
+					"rotationOrigin": [ 0.4, 2.6, 0.4 ],
+					"faces": {
+						"north": { "texture": "#metal", "uv": [ 0.0, 0.0, 1.0, 0.5 ] },
+						"east": { "texture": "#metal", "uv": [ 0.0, 0.0, 1.0, 0.5 ] },
+						"south": { "texture": "#metal", "uv": [ 0.0, 0.0, 1.0, 0.5 ] },
+						"west": { "texture": "#metal", "uv": [ 0.0, 0.0, 1.0, 0.5 ] },
+						"up": { "texture": "#metal", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+						"down": { "texture": "#metal", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "enabled": false }
+					}
+				},
+				{
+					"name": "Bullet6",
+					"from": [ 0.6, 3.0, 0.6 ], 
+					"to": [ 1.4, 3.2, 1.4 ], 
+					"rotationOrigin": [ 0.6, 3.0, 0.6 ],
+					"faces": {
+						"north": { "texture": "#metal", "uv": [ 8.5, 6.5, 9.0, 7.0 ] },
+						"east": { "texture": "#metal", "uv": [ 9.5, 6.0, 10.0, 6.5 ] },
+						"south": { "texture": "#metal", "uv": [ 9.5, 3.5, 10.0, 4.0 ] },
+						"west": { "texture": "#metal", "uv": [ 7.0, 4.0, 7.5, 4.5 ] },
+						"up": { "texture": "#metal", "uv": [ 6.5, 4.0, 7.0, 4.5 ] },
+						"down": { "texture": "#metal", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false }
+					}
+				},
+				{
+					"name": "Bullet3",
+					"from": [ 0.0, 1.6, 0.0 ], 
+					"to": [ 2.0, 2.0, 2.0 ], 
+					"rotationOrigin": [ 0.0, 1.6, 0.0 ],
+					"faces": {
+						"north": { "texture": "#metal", "uv": [ 9.0, 7.0, 11.0, 7.5 ] },
+						"east": { "texture": "#metal", "uv": [ 3.0, 12.5, 5.0, 13.0 ] },
+						"south": { "texture": "#metal", "uv": [ 7.0, 4.5, 9.0, 5.0 ] },
+						"west": { "texture": "#metal", "uv": [ 11.0, 5.0, 13.0, 5.5 ] },
+						"up": { "texture": "#metal", "uv": [ 11.5, 9.0, 13.5, 11.0 ] },
+						"down": { "texture": "#metal", "uv": [ 10.0, 5.5, 12.0, 7.5 ] }
+					}
+				},
+				{
+					"name": "Bullet7",
+					"from": [ 0.2, 1.2, 0.2 ], 
+					"to": [ 1.8, 1.6, 1.8 ], 
+					"rotationOrigin": [ 0.2, 1.2, 0.2 ],
+					"faces": {
+						"north": { "texture": "#metal", "uv": [ 9.0, 6.0, 10.5, 6.5 ] },
+						"east": { "texture": "#metal", "uv": [ 6.0, 10.5, 7.5, 11.0 ] },
+						"south": { "texture": "#metal", "uv": [ 6.0, 8.5, 7.5, 9.0 ] },
+						"west": { "texture": "#metal", "uv": [ 7.5, 5.0, 9.0, 5.5 ] },
+						"up": { "texture": "#metal", "uv": [ 7.5, 4.0, 9.0, 5.5 ] },
+						"down": { "texture": "#metal", "uv": [ 0.0, 0.0, 1.5, 1.5 ], "enabled": false }
+					}
+				},
+				{
+					"name": "Bullet8",
+					"from": [ 0.2, 0.4, 0.2 ], 
+					"to": [ 1.8, 0.8, 1.8 ], 
+					"rotationOrigin": [ 0.2, 0.4, 0.2 ],
+					"faces": {
+						"north": { "texture": "#metal", "uv": [ 9.0, 6.0, 10.5, 6.5 ] },
+						"east": { "texture": "#metal", "uv": [ 6.0, 10.5, 7.5, 11.0 ] },
+						"south": { "texture": "#metal", "uv": [ 6.0, 8.5, 7.5, 9.0 ] },
+						"west": { "texture": "#metal", "uv": [ 7.5, 5.0, 9.0, 5.5 ] },
+						"up": { "texture": "#metal", "uv": [ 7.5, 4.0, 9.0, 5.5 ] },
+						"down": { "texture": "#metal", "uv": [ 0.0, 0.0, 1.5, 1.5 ], "enabled": false }
+					}
+				}
+			]
+		}
+	]}

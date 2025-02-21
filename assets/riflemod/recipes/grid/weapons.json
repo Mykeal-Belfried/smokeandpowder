@@ -1,0 +1,213 @@
+[
+
+{
+	"ingredientPattern": "LGH,RBA,S__",
+	"ingredients": {
+		"L": { "type": "item", "code": "riflelock-*", "quantity": 1 },
+		"H": { "type": "item", "code": "game:hammer-*", "isTool": true, "quantity": 1 },
+		"B": { "type": "item", "code": "riflebreech-*", "name": "metal", "allowedVariants": ["iron", "meteoriciron", "steel"], "quantity": 1 },
+		"A": { "type": "item", "code": "riflebarrel-*", "name": "metal", "allowedVariants": ["iron", "meteoriciron", "steel"], "quantity": 1 },
+		"R": { "type": "item", "code": "riflereceiver-*", "name": "metal", "allowedVariants": ["iron", "meteoriciron", "steel"], "quantity": 1 },
+		"S": { "type": "item", "code": "riflestock-*", "quantity": 1 },
+		"G": { "type": "item", "code": "game:gear-rusty", "quantity": 2 }
+		
+	},
+	"name": "breech-loading rifle",
+	"width": 3,
+	"height": 3,
+	"output": { "type": "item", "code": "rifle-{metal}", "quantity": 1 }
+},
+
+{
+	"ingredientPattern": "GLH,RBA,S__",
+	"ingredients": {
+		"L": { "type": "item", "code": "riflelock-*", "quantity": 1 },
+		"H": { "type": "item", "code": "game:hammer-*", "isTool": true, "quantity": 1 },
+		"B": { "type": "item", "code": "riflebreech-*", "name": "metal", "allowedVariants": ["iron", "meteoriciron", "steel"], "quantity": 1 },
+		"A": { "type": "item", "code": "riflebarrel-*", "name": "metal", "allowedVariants": ["iron", "meteoriciron", "steel"], "quantity": 1 },
+		"R": { "type": "item", "code": "riflereceiver-*", "name": "metal", "allowedVariants": ["iron", "meteoriciron", "steel"], "quantity": 1 },
+		"S": { "type": "item", "code": "riflestock-*", "quantity": 1 },
+		"G": { "type": "item", "code": "game:gear-rusty", "quantity": 2 }
+		
+	},
+	"name": "breech-loading rifle",
+	"width": 3,
+	"height": 3,
+	"output": { "type": "item", "code": "rifle-{metal}", "quantity": 1 }
+},
+
+{
+	"ingredientPattern": "HLG,ABR,__S",
+	"ingredients": {
+		"L": { "type": "item", "code": "riflelock-*", "quantity": 1 },
+		"H": { "type": "item", "code": "game:hammer-*", "isTool": true, "quantity": 1 },
+		"B": { "type": "item", "code": "riflebreech-*", "name": "metal", "allowedVariants": ["iron", "meteoriciron", "steel"], "quantity": 1 },
+		"A": { "type": "item", "code": "riflebarrel-*", "name": "metal", "allowedVariants": ["iron", "meteoriciron", "steel"], "quantity": 1 },
+		"R": { "type": "item", "code": "riflereceiver-*", "name": "metal", "allowedVariants": ["iron", "meteoriciron", "steel"], "quantity": 1 },
+		"S": { "type": "item", "code": "riflestock-*", "quantity": 1 },
+		"G": { "type": "item", "code": "game:gear-rusty", "quantity": 2 }
+		
+	},
+	"name": "breech-loading rifle",
+	"width": 3,
+	"height": 3,
+	"output": { "type": "item", "code": "rifle-{metal}", "quantity": 1 }
+},
+
+{
+	"ingredientPattern": "HGL,ABR,__S",
+	"ingredients": {
+		"L": { "type": "item", "code": "riflelock-*", "quantity": 1 },
+		"H": { "type": "item", "code": "game:hammer-*", "isTool": true, "quantity": 1 },
+		"B": { "type": "item", "code": "riflebreech-*", "name": "metal", "allowedVariants": ["iron", "meteoriciron", "steel"], "quantity": 1 },
+		"A": { "type": "item", "code": "riflebarrel-*", "name": "metal", "allowedVariants": ["iron", "meteoriciron", "steel"], "quantity": 1 },
+		"R": { "type": "item", "code": "riflereceiver-*", "name": "metal", "allowedVariants": ["iron", "meteoriciron", "steel"], "quantity": 1 },
+		"S": { "type": "item", "code": "riflestock-*", "quantity": 1 },
+		"G": { "type": "item", "code": "game:gear-rusty", "quantity": 2 }
+
+		
+	},
+	"name": "breech-loading rifle",
+	"width": 3,
+	"height": 3,
+	"output": { "type": "item", "code": "rifle-{metal}", "quantity": 1 }
+},
+
+
+
+{
+	"ingredientPattern": "GLH,RIA,S__",
+	"ingredients": {
+		"L": { "type": "item", "code": "riflelock-*", "quantity": 1 },
+		"H": { "type": "item", "code": "game:hammer-*", "isTool": true, "quantity": 1 },
+		"A": { "type": "item", "code": "riflebarrel-*", "name": "metal", "allowedVariants": ["iron", "meteoriciron", "steel"], "quantity": 1 },
+		"I": { "type": "item", "code": "game:ingot-*",  "name": "metal", "allowedVariants": ["iron", "meteoriciron", "steel"], "quantity": 1 },
+		"R": { "type": "item", "code": "riflereceiver-*", "name": "metal", "allowedVariants": ["iron", "meteoriciron", "steel"], "quantity": 1 },
+		"S": { "type": "item", "code": "riflestock-*", "quantity": 1 },
+		"G": { "type": "item", "code": "game:gear-rusty", "quantity": 3 }
+		
+	},
+	"name": "muzzle-loading musket",
+	"width": 3,
+	"height": 3,
+	"output": { "type": "item", "code": "musket-{metal}", "quantity": 1 }
+	},
+	{
+	"ingredientPattern": "HLG,RIA,S__",
+	"ingredients": {
+		"L": { "type": "item", "code": "riflelock-*", "quantity": 1 },
+		"H": { "type": "item", "code": "game:hammer-*", "isTool": true, "quantity": 1 },
+		"A": { "type": "item", "code": "riflebarrel-*", "name": "metal", "allowedVariants": ["iron", "meteoriciron", "steel"], "quantity": 1 },
+		"I": { "type": "item", "code": "game:ingot-*",  "name": "metal", "allowedVariants": ["iron", "meteoriciron", "steel"], "quantity": 1 },
+		"R": { "type": "item", "code": "riflereceiver-*", "name": "metal", "allowedVariants": ["iron", "meteoriciron", "steel"], "quantity": 1 },
+		"S": { "type": "item", "code": "riflestock-*", "quantity": 1 },
+		"G": { "type": "item", "code": "game:gear-rusty", "quantity": 3 }
+		
+	},
+	"name": "muzzle-loading musket",
+	"width": 3,
+	"height": 3,
+	"output": { "type": "item", "code": "musket-{metal}", "quantity": 1 }
+},
+
+{
+	"ingredientPattern": "GLH,AIR,__S",
+	"ingredients": {
+		"L": { "type": "item", "code": "riflelock-*", "quantity": 1 },
+		"H": { "type": "item", "code": "game:hammer-*", "isTool": true, "quantity": 1 },
+		"A": { "type": "item", "code": "riflebarrel-*", "name": "metal", "allowedVariants": ["iron", "meteoriciron", "steel"], "quantity": 1 },
+		"I": { "type": "item", "code": "game:ingot-*",  "name": "metal", "allowedVariants": ["iron", "meteoriciron", "steel"], "quantity": 1 },
+		"R": { "type": "item", "code": "riflereceiver-*", "name": "metal", "allowedVariants": ["iron", "meteoriciron", "steel"], "quantity": 1 },
+		"S": { "type": "item", "code": "riflestock-*", "quantity": 1 },
+		"G": { "type": "item", "code": "game:gear-rusty", "quantity": 3 }
+		
+	},
+	"name": "muzzle-loading musket",
+	"width": 3,
+	"height": 3,
+	"output": { "type": "item", "code": "musket-{metal}", "quantity": 1 }
+},
+
+{
+	"ingredientPattern": "HLG,AIR,__S",
+	"ingredients": {
+		"L": { "type": "item", "code": "riflelock-*", "quantity": 1 },
+		"H": { "type": "item", "code": "game:hammer-*", "isTool": true, "quantity": 1 },
+		"A": { "type": "item", "code": "riflebarrel-*", "name": "metal", "allowedVariants": ["iron", "meteoriciron", "steel"], "quantity": 1 },
+		"I": { "type": "item", "code": "game:ingot-*",  "name": "metal", "allowedVariants": ["iron", "meteoriciron", "steel"], "quantity": 1 },
+		"R": { "type": "item", "code": "riflereceiver-*", "name": "metal", "allowedVariants": ["iron", "meteoriciron", "steel"], "quantity": 1 },
+		"S": { "type": "item", "code": "riflestock-*", "quantity": 1 },
+		"G": { "type": "item", "code": "game:gear-rusty", "quantity": 3 }
+
+		
+	},
+	"name": "muzzle-loading musket",
+	"width": 3,
+	"height": 3,
+	"output": { "type": "item", "code": "musket-{metal}", "quantity": 1 }
+},
+
+
+
+
+{
+	"ingredientPattern": "LH,GA",
+	"ingredients": {
+		"L": { "type": "item", "code": "riflelock-*", "quantity": 1 },
+		"H": { "type": "item", "code": "game:hammer-*", "isTool": true, "quantity": 1 },
+		"A": { "type": "item", "code": "pistolframe-*", "name": "metal", "allowedVariants": ["iron", "meteoriciron", "steel"], "quantity": 1 },
+		"G": { "type": "item", "code": "game:gear-rusty", "quantity": 2 }
+		
+	},
+	"name": "muzzle-loading pistol",
+	"width": 2,
+	"height": 2,
+	"output": { "type": "item", "code": "pistol-{metal}", "quantity": 1 }
+},
+
+{
+	"ingredientPattern": "HL,AG,",
+	"ingredients": {
+		"L": { "type": "item", "code": "riflelock-*", "quantity": 1 },
+		"H": { "type": "item", "code": "game:hammer-*", "isTool": true, "quantity": 1 },
+		"A": { "type": "item", "code": "finishedpistolframe-*", "name": "metal", "allowedVariants": ["iron", "meteoriciron", "steel"], "quantity": 1 },
+		"G": { "type": "item", "code": "game:gear-rusty", "quantity": 2 }
+		
+	},
+	"name": "muzzle-loading pistol",
+	"width": 2,
+	"height": 2,
+	"output": { "type": "item", "code": "pistol-{metal}", "quantity": 1 }
+},
+
+{
+	"ingredientPattern": "LH,AG",
+	"ingredients": {
+		"L": { "type": "item", "code": "riflelock-*", "quantity": 1 },
+		"H": { "type": "item", "code": "game:hammer-*", "isTool": true, "quantity": 1 },
+		"A": { "type": "item", "code": "finishedpistolframe-*", "name": "metal", "allowedVariants": ["iron", "meteoriciron", "steel"], "quantity": 1 },
+		"G": { "type": "item", "code": "game:gear-rusty", "quantity": 2 }
+		
+	},
+	"name": "muzzle-loading pistol",
+	"width": 2,
+	"height": 2,
+	"output": { "type": "item", "code": "pistol-{metal}", "quantity": 1 }
+},
+
+{
+	"ingredientPattern": "HL,GA",
+	"ingredients": {
+		"L": { "type": "item", "code": "riflelock-*", "quantity": 1 },
+		"H": { "type": "item", "code": "game:hammer-*", "isTool": true, "quantity": 1 },
+		"A": { "type": "item", "code": "pistolframe-*", "name": "metal", "allowedVariants": ["iron", "meteoriciron", "steel"], "quantity": 1 },
+		"G": { "type": "item", "code": "game:gear-rusty", "quantity": 2 }
+
+		
+	},
+	"name": "muzzle-loading pistol",
+	"width": 2,
+	"height": 2,
+	"output": { "type": "item", "code": "pistol-{metal}", "quantity": 1 }
+}
+]

@@ -1,0 +1,13 @@
+{
+	ingredientPattern: "SXC",
+	ingredients: {
+		"S": { type: "item", code: "game:saltpeter", quantity: 4 },
+		"X": { type: "item", code: "game:powder-sulfur", quantity: 2 },
+		"C": { type: "item", code: "game:charcoal", quantity: 1 }
+	},
+	name: "black powder",
+	width: 3,
+	height: 1,
+	shapeless: true,
+	output: { type: "item", code: "game:blastingpowder", quantity: 6  }
+}

@@ -1,0 +1,41 @@
+{
+	code: "cartridgebullet",
+	class: "EntityProjectile",
+	variantgroups: [
+		{ code: "material", states: [ "lead", "leadsolder", "silversolder", "silver", "gold", "copper" ] }
+	],
+	hitboxSize: { x: 0.125, y: 0.125 },
+	client: {
+		size: 0.75,
+		renderer: "Shape",
+		shapeByType: { 
+			"*": { base: "entity/bullet" }
+		},
+		texturesByType: {
+			"*": {
+				"metal": { base: "game:block/metal/ingot/{material}" }
+			}
+		},
+		behaviors: [
+			{ code: "passivephysics",
+				groundDragFactor: 1,
+				airDragFactor: 0.25,
+				gravityFactor: 0.25
+			}, 
+			{ code: "interpolateposition" }
+		],
+	},
+	server: {
+		behaviors: [
+			{ 
+				code: "passivephysics",
+				groundDragFactor: 1,
+				airDragFactor: 0.25,
+				gravityFactor: 0.25
+			}, 
+			{ code: "despawn", minSeconds: 600 }
+		],
+	},
+	sounds: {
+	}
+}

@@ -1,0 +1,87 @@
+{
+	code: "pistol",
+	variantgroups: [
+		{ code: "material", states: [ "iron", "meteoriciron", "steel" ] },
+	],
+	class: "ItemRifle",
+	maxstacksize: 1,
+	durabilityByType: {
+		"*-iron": 400,
+		"*-meteoriciron": 600,
+		"*-steel": 750
+	},
+	shape: {
+		base: "item/tool/pistol01loaded",
+		alternates: [
+			{ base: "item/tool/pistol01loaded" }
+		]
+	},
+	texturesByType: {
+		"*": {
+			"metalflat": { base: "game:block/metal/plate/{material}" },
+			"metal": { base: "game:block/metal/ingot/{material}" }
+		}
+	},
+	tool: "bow",
+	creativeinventory: { "general": ["*"], "items": ["*"], "tools": ["*"], "riflemod": ["*"] },
+	attributes: {
+		damageByType: {
+			"*": 2
+		},
+		toolrackTransform: {
+			translation: { x: -0.2, y: 0.53, z: 0 },
+			rotation: { x: 0, y: 90, z: 0 },
+			scale: 1.25
+		},
+		loadingTime: 1.5,
+		accuracyModifierByType: {
+			"*-iron": 0.625,
+			"*-meteoriciron": 0.575,
+			"*-steel": 0.5	
+		},
+		firingSound: "sounds/rifle/riflefire",
+		stopAimSound: "sounds/rifle/rifleload",
+		readyAimSound: "sounds/rifle/hallrifleclose",
+		
+		smokePNumMin: 8,
+		smokePNumMax: 14,
+		smokePPosMinX: -0.4,
+		smokePPosMinY: -0.4,
+		smokePPosMinZ: -0.4,
+		smokePPosMaxX: 0.4,
+		smokePPosMaxY: 0.4,
+		smokePPosMaxZ: 0.4,
+		smokePVelMinX: -0.15,
+		smokePVelMinY: -0.05,
+		smokePVelMinZ: -0.15,
+		smokePVelMaxX: 0.15,
+		smokePVelMaxY: 0.3,
+		smokePVelMaxZ: 0.15,
+		smokePLifeTime: 2.75,
+		smokePGrav: -0.012
+	},
+	fpHandTransform: {
+		translation: { x: -0.2, y: 0.3, z: -0.1 },
+		rotation: { x: 4, y: 1, z: 0 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 3.5
+	},
+	guiTransform: {
+		translation: { x: 3, y: 7.7, z: 0 },
+		rotation: { x: -28, y: 34, z: 180 },
+		origin: { x: 0.47, y: 0, z: 0.55 },
+		scale: 2.28
+	},
+	groundTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: 0, y: 0, z: 0 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 4.8
+	},
+	tpHandTransform: {
+		translation: { x: -0.7, y: -0.3, z: -0.42 },
+		rotation: { x: 90, y: -45, z: -99 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 1.08
+	}
+}

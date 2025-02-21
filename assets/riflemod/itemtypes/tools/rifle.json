@@ -1,0 +1,94 @@
+{
+	code: "rifle",
+	variantgroups: [
+		{ code: "material", states: [ "iron", "meteoriciron", "steel" ] },
+	],
+	class: "ItemRifle",
+	maxstacksize: 1,
+	durabilityByType: {
+		"*-iron": 600,
+		"*-meteoriciron": 700,
+		"*-steel": 1000
+	},
+	shape: {
+		base: "item/tool/rifle01unloaded",
+		alternates: [
+			{ base: "item/tool/rifle01loaded" },
+			{ base: "item/tool/rifle01unloaded" }
+		]
+	},
+	texturesByType: {
+		"*": {
+			"metalflat": { base: "game:block/metal/plate/{material}" },
+			"metal": { base: "game:block/metal/ingot/{material}" }
+		}
+	},
+	tool: "bow",
+	creativeinventory: { "general": ["*"], "items": ["*"], "tools": ["*"], "riflemod": ["*"] },
+	attributes: {
+		damageByType: {
+			"*": 6.5
+		},
+		accuracyModifierByType: {
+			"*-iron": 0.45,
+			"*-meteoriciron": 0.33,
+			"*-steel": 0.25	
+		},
+		toolrackTransform: {
+			translation: { x: 0, y: 0.13, z: 0.4 },
+			rotation: { x: 90, y: 90, z: 0 },
+			scale: 1.5
+		},
+		loadingTime: 0.85,
+		firingSound: "sounds/rifle/hallriflefire",
+		stopAimSound: "sounds/rifle/hallrifleclose",
+		readyAimSound: "sounds/rifle/hallrifleopen",
+		
+		smokePNumMin: 12,
+		smokePNumMax: 18,
+		smokePPosMinX: -0.5,
+		smokePPosMinY: -0.5,
+		smokePPosMinZ: -0.5,
+		smokePPosMaxX: 0.5,
+		smokePPosMaxY: 0.5,
+		smokePPosMaxZ: 0.5,
+		smokePVelMinX: -0.15,
+		smokePVelMinY: 0,
+		smokePVelMinZ: -0.15,
+		smokePVelMaxX: 0.15,
+		smokePVelMaxY: 0.5,
+		smokePVelMaxZ: 0.15,
+		smokePLifeTime: 3.25,
+		smokePGrav: -0.012
+	},
+	fpHandTransformByType: {
+		"*": {
+			translation: { x: -0.2, y: 0.3, z: -0.1 },
+		rotation: { x: 4, y: 1, z: 0 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 3.5
+		}
+	},
+	guiTransformByType: {
+		"*": {
+			translation: { x: 3, y: 7.7, z: 0 },
+		rotation: { x: -28, y: 34, z: 180 },
+		origin: { x: 0.47, y: 0, z: 0.55 },
+		scale: 2.28
+		}
+	},
+	groundTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: 0, y: 0, z: 0 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 4.8
+	},
+	tpHandTransformByType: {
+		"*": {
+			translation: { x: -0.8, y: -0.16, z: -0.35 },
+		rotation: { x: 0, y: -90, z: 0 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 1.4
+		}
+	}
+}

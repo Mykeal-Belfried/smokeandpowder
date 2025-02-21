@@ -1,0 +1,16 @@
+{
+	ingredient: { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["iron","meteoriciron","steel"] },
+	pattern: [[
+		"_########",
+		"_####____",
+		"##_______",
+		"##_______"
+	],[
+		"_########",
+		"_####____",
+		"##_______",
+		"##_______"
+	]],
+	name: "Pistol frame",
+	output: { type: "item", code: "roughpistolframe-{metal}", quantity: 1 }
+}

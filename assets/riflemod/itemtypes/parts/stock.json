@@ -1,0 +1,34 @@
+{
+	code: "riflestock",
+	variantgroups: [
+		{ code: "material", states: ["wood"] }
+	],
+	shape: { base: "item/parts/furniture" },
+	creativeinventory: { "general": ["*"], "items": ["*"], "riflemod": ["*"] },
+	maxstacksize: 64,
+	materialDensity: 700,
+	guiTransform: {
+		translation: { x: 1, y: 13, z: 57 },
+		rotation: { x: 108, y: -57, z: -13 },
+		origin: { x: 0.2, y: 0.4, z: 0.35 },
+		scale: 3
+	},
+	groundTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: 0, y: 0, z: 0 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 6
+	},
+	tpHandTransform: {
+		translation: { x: -0.11, y: 0.05, z: -0.73 },
+		rotation: { x: -74, y: -77, z: 0 },
+		origin: { x: 0.3, y: 0.5, z: 0.5 },
+		scale: 1.5
+	},
+	fpHandTransform: {
+		translation: { x: -0.2, y: -0.2, z: -0.1 },
+		rotation: { x: 46, y: 3, z: 90 },
+		origin: { x: 0.6, y: 0.12, z: 1 },
+		scale: 3
+	}
+}

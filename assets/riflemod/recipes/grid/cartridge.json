@@ -1,0 +1,33 @@
+[
+
+{
+	ingredientPattern: "FB,PC",
+	ingredients: {
+		"P": { type: "item", code: "game:blastingpowder", quantity: 1 },
+		"C": { type: "block", code: "game:linen-*", quantity: 1 },
+		"B": { type: "item", code: "riflebullet-*", name: "metal", quantity: 12 },
+		"F": { type: "item", code: "game:fat", quantity: 1 }
+	},
+	name: "fabric cartridge",
+	width: 2,
+	height: 2,
+	shapeless: true,
+	output: { type: "item", code: "cartridge-ball-{metal}", quantity: 12  }
+},
+
+{
+	ingredientPattern: "FB,PC",
+	ingredients: {
+		"P": { type: "item", code: "game:blastingpowder", quantity: 1 },
+		"C": { type: "block", code: "game:linen-*", quantity: 1 },
+		"B": { type: "item", code: "looseshot-*", name: "metal", quantity: 72 },
+		"F": { type: "item", code: "game:fat", quantity: 1 }
+	},
+	name: "fabric cartridge",
+	width: 2,
+	height: 2,
+	shapeless: true,
+	output: { type: "item", code: "cartridge-buckshot-{metal}", quantity: 12  }
+}
+
+]

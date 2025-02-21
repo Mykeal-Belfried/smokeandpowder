@@ -1,0 +1,47 @@
+[
+
+{
+	ingredientPattern: "HCF",
+	ingredients: {
+		"H": { type: "item", code: "game:hammer-*", isTool: true },
+		"C": { type: "item", code: "game:chisel-*", isTool: true },
+		"F": { type: "item", code: "roughpistolframe-*", name: "metal", allowedVariants: ["iron", "meteoriciron", "steel"], quantity: 1 }
+	},
+	name: "worked pistol frame",
+	width: 3,
+	height: 1,
+	shapeless: true,
+	output: { type: "item", code: "pistolframe-{metal}", quantity: 1  }
+},
+
+{
+	ingredientPattern: "SK,LF",
+	ingredients: {
+		"S": { type: "item", code: "game:saw-*", isTool: true  },
+		"K": { type: "item", code: "game:knife-*", isTool: true },
+		"L": { type: "block", code: "game:log-*", quantity: 1 },
+		"F": { type: "item", code: "pistolframe-*", name: "metal", allowedVariants: ["iron", "meteoriciron", "steel"], quantity: 1 }
+	},
+	name: "finished pistol frame",
+	width: 2,
+	height: 2,
+	shapeless: true,
+	output: { type: "item", code: "finishedpistolframe-{metal}", quantity: 1  }
+},
+
+{
+	ingredientPattern: "SK,LF",
+	ingredients: {
+		"S": { type: "item", code: "game:saw-*", isTool: true  },
+		"K": { type: "item", code: "game:knife-*", isTool: true },
+		"L": { type: "block", code: "game:logsection-placed-*", quantity: 1 },
+		"F": { type: "item", code: "pistolframe-*", name: "metal", allowedVariants: ["iron", "meteoriciron", "steel"], quantity: 1 }
+	},
+	name: "finished pistol frame",
+	width: 2,
+	height: 2,
+	shapeless: true,
+	output: { type: "item", code: "finishedpistolframe-{metal}", quantity: 1  }
+}
+
+]

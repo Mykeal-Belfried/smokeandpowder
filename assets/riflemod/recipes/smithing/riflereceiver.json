@@ -1,0 +1,15 @@
+{
+	ingredient: { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["iron","meteoriciron","steel"] },
+	pattern: [[
+		"__#######",
+		"#########",
+		"__#######"
+	],[
+		"__#######",
+		"#####____",
+		"__#######"
+	]],
+	name: "Rifle Receiver",
+	output: { type: "item", code: "riflereceiver-{metal}", quantity: 1 }
+}
+

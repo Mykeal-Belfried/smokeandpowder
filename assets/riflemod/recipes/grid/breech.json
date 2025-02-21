@@ -1,0 +1,35 @@
+[
+
+{
+	ingredientPattern: "H_,CI,GF",
+	ingredients: {
+		"H": { type: "item", code: "game:hammer-*", isTool: true, quantity: 1 },
+		"C": { type: "item", code: "game:chisel-*", isTool: true, quantity: 1 },
+		"I": { type: "item", code: "game:ingot-*",  name: "metal", allowedVariants: ["iron", "meteoriciron", "steel"], quantity: 1 },
+		"G": { type: "block", code: "game:metal-parts", quantity: 2 },
+		"F": { type: "item", code: "game:fat", quantity: 1 }
+		
+	},
+	name: "rifle breech",
+	width: 2,
+	height: 3,
+	output: { type: "item", code: "riflebreech-{metal}", quantity: 1  }
+},
+
+{
+	ingredientPattern: "_H,CI,GF",
+	ingredients: {
+		"H": { type: "item", code: "game:hammer-*", isTool: true, quantity: 1 },
+		"C": { type: "item", code: "game:chisel-*", isTool: true, quantity: 1 },
+		"I": { type: "item", code: "game:ingot-*",  name: "metal", allowedVariants: ["iron", "meteoriciron", "steel"], quantity: 1 },
+		"G": { type: "block", code: "game:metal-parts", quantity: 2 },
+		"F": { type: "item", code: "game:fat", quantity: 1 }
+		
+	},
+	name: "rifle breech",
+	width: 2,
+	height: 3,
+	output: { type: "item", code: "riflebreech-{metal}", quantity: 1  }
+}
+
+]
