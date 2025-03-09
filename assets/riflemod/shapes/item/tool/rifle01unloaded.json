@@ -13,7 +13,7 @@
 		"bituminous": "game:block/coal/bituminous",
 		"metal": "game:block/metal/ingot/iron",
 		"flint": "game:block/stone/flint",
-		"leather": "game:block/leather",
+		"leather": "game:block/leather/plain",
 		"brass": "game:block/metal/ingot/brass"
 	},
 	"elements": [
