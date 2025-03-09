@@ -10,7 +10,7 @@
 			"metalflat": { base: "game:block/metal/plate/{material}" },
 			"bituminous": { base: "game:block/coal/bituminous" },
 			"flint": { base: "game:block/stone/flint" },
-			"leather": { base: "game:block/leather" }
+			"leather": { base: "game:block/leather/plain" }
 		}
 	},
 	creativeinventory: { "general": ["*"], "items": ["*"], "riflemod": ["*"] },
