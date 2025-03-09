@@ -32,7 +32,7 @@ namespace SmokeAndPowder
             if (inSlot.Itemstack.Collectible.Attributes == null) return;
 
             var dmg = inSlot.Itemstack.Collectible.Attributes["damage"].AsFloat();
-            if (dmg != 0) dsc.AppendLine((dmg > 0 ? "+" : "") + dmg + Lang.Get("piercing-damage"));
+            if (dmg != 0) dsc.AppendLine((dmg > 0 ? "+" : "") + dmg + Lang.Get(" piercing-damage"));
             var shotCount = inSlot.Itemstack.Collectible.Attributes["projectileCount"].AsInt(1);
             dsc.AppendLine("fires " + shotCount + "x projectile(s)");
 
@@ -383,7 +383,7 @@ namespace SmokeAndPowder
             if (inSlot.Itemstack.Collectible.Attributes == null) return;
 
             var dmg = inSlot.Itemstack.Collectible.Attributes["damage"].AsFloat();
-            if (dmg != 0) dsc.AppendLine(dmg + Lang.Get("piercing-damage"));
+            if (dmg != 0) dsc.AppendLine(dmg + Lang.Get(" piercing-damage"));
         }
 
 
